@@ -30,6 +30,7 @@ namespace Client
 
             Console.WriteLine(tokenResponse.Json);
             Console.WriteLine("\n\n");
+            Console.ReadLine();
 
             // call api
             var client = new HttpClient();
